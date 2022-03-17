@@ -1,11 +1,10 @@
 .cartao-pokemon {
-    background-color: aqua;
+    display: none;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
 }
 
 .cartao-pokemon .cartao-topo {
-    background-color: red;
     padding: 30px 40px 0;
 }
 
@@ -32,7 +31,6 @@
 .cartao-pokemon .cartao-imagem {
     width: 350px;
     height: 350px;
-    background-color: blue;
 }
 
 .cartao-pokemon img {
@@ -72,3 +70,26 @@
     display: block;
 }
 
+.tipo-fogo {
+    background-color: #ED8A8B;
+}
+
+.tipo-eletrico {
+    background-color: #fcc719;
+}
+
+.tipo-agua {
+    background-color: #76BEFE;
+}
+
+.tipo-grama {
+    background-color: #49D0B0;
+}
+
+.tipo-trevas {
+    background-color: #BA68c8;
+}
+
+.tipo-dragao {
+    background-color: #C29791;
+}
