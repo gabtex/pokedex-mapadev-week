@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="src/css/cartao.css">
     <link rel="stylesheet" href="src/css/listagem.css">
     <link rel="stylesheet" href="src/css/responsivo.css">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;500;800&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;500;800&display=swap"
         rel="stylesheet">
 </head>
 
@@ -21,7 +22,7 @@
     <main>
         <div class="pokedex">
             <div class="cartoes-pokemon">
-                <div class="cartao-pokemon aberto tipo-eletrico">
+                <div class="cartao-pokemon aberto tipo-eletrico" id="cartao-pikachu">
 
                     <div class="cartao-topo">
                         <div class="detalhes">
@@ -57,7 +58,7 @@
 
                 </div>
 
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon tipo-grama" id="cartao-bulbasaur">
 
                     <div class="cartao-topo">
                         <div class="detalhes">
@@ -93,7 +94,7 @@
 
                 </div>
 
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon tipo-fogo" id="cartao-charmander">
 
                     <div class="cartao-topo">
                         <div class="detalhes">
@@ -129,7 +130,7 @@
 
                 </div>
 
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon tipo-agua" id="cartao-gyarados">
 
                     <div class="cartao-topo">
                         <div class="detalhes">
@@ -165,7 +166,7 @@
 
                 </div>
 
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon tipo-trevas" id="cartao-gengar">
 
                     <div class="cartao-topo">
                         <div class="detalhes">
@@ -201,7 +202,7 @@
 
                 </div>
 
-                <div class="cartao-pokemon">
+                <div class="cartao-pokemon tipo-dragao" id="cartao-dragonite">
 
                     <div class="cartao-topo">
                         <div class="detalhes">
@@ -240,32 +241,32 @@
 
             <nav class="listagem">
                 <ul>
-                    <li class="pokemon ativo">
+                    <li class="pokemon ativo" id="pikachu">
                         <img src="src/images/cabeca-pikachu.png" alt="Cabeça do Pikachu">
                         <span>Pikachu</span>
                     </li>
 
-                    <li class="pokemon">
+                    <li class="pokemon" id="bulbasaur">
                         <img src="src/images/cabeca-bulbasaur.png" alt="Cabeça do Bulbasaur">
                         <span>Bulbasaur</span>
                     </li>
 
-                    <li class="pokemon">
+                    <li class="pokemon" id="charmander">
                         <img src="src/images/cabeca-charmander.png" alt="Cabeça do Charmander">
                         <span>Charmander</span>
                     </li>
 
-                    <li class="pokemon">
+                    <li class="pokemon" id="gyarados">
                         <img src="src/images/cabeca-gyarados.png" alt="Cabeça do Gyarados">
                         <span>Gyarados</span>
                     </li>
 
-                    <li class="pokemon">
+                    <li class="pokemon" id="gengar">
                         <img src="src/images/cabeca-gengar.png" alt="Cabeça do Gengar">
                         <span>Gengar</span>
                     </li>
 
-                    <li class="pokemon">
+                    <li class="pokemon" id="dragonite">
                         <img src="src/images/cabeca-dragonite.png" alt="Cabeça do Dragonite">
                         <span>Dragonite</span>
                     </li>
@@ -275,6 +276,7 @@
         </div>
 
     </main>
+    <script src="src/js/index.js"></script>
 </body>
 
 </html>
